@@ -1,0 +1,198 @@
+#app {
+    height: 100%;
+    width: 100%;
+}
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix {
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+ul.list-inline{
+    list-style: none;
+    overflow: hidden;
+    _zoom:1;
+    li{
+        list-style: none;
+        float:left;
+    }
+}
+
+
+
+
+/************颜色********/
+
+.bg-base {
+    background-color: rgb(243, 243, 243);
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+.bg-pink {
+    background-color: $pink;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.bg-yellow {
+    background-color: $yellow;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.text-gray {
+    color: $gray;
+}
+
+.text-sliver {
+    color: $sliver;
+}
+
+.text-red {
+    color: $red;
+}
+
+.text-white {
+    color: $white;
+}
+
+.text-pink {
+    color: $pink;
+}
+
+
+/********字体***********/
+
+.text-small {
+    font-size: pxTorem(24);
+}
+
+.text-normal {
+    font-size: $base-size;
+}
+
+.text-large {
+    font-size: pxTorem(28);
+}
+
+.text-huge {
+    font-size: pxTorem(36);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+/*******按钮**********/
+
+.btn {
+    height: pxTorem(50);
+    line-height: pxTorem(50);
+    padding:0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: pxTorem(10);
+    font-size: pxTorem(30);
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-large {
+    height: pxTorem(80);
+    line-height: pxTorem(80);
+}
+
+.btn-default {
+    background-color: $white;
+    border-color: $black;
+}
+
+.btn-failed {
+    background-color: $gray;
+    border-color: $black;
+}
+
+.btn-blue {
+    background-color: $blue;
+    border-color: $blue;
+    color: $white;
+}
+
+.btn-red {
+    background-color: $red;
+    border-color: $red;
+    color: $white;
+}
+
+.btn-pink {
+    background-color: $pink;
+    border-color: $pink;
+    color: $white;
+}
+
+.btn-yellow {
+    background-color: $yellow;
+    border-color: $yellow;
+}
+
+.btn-pink-hollow {
+    background-color: $white;
+    border-color: $pink;
+    color: $pink;
+}
+.swiper-pagination-bullet {
+    padding: pxTorem(6);
+    margin: 0 pxTorem(8) !important;
+    border-radius: 50%;
+    background-color: $white !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: $gray-light !important;
+
+}
+
